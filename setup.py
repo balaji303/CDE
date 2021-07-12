@@ -1,13 +1,11 @@
+#CD-E
 
 
-#UI/UX Librarys
 import wx
 from wx.core import Size
 import wx.xrc
 import wx.aui
 import wx.richtext
-
-#OS library
 import os
 
 
