@@ -6,6 +6,7 @@
     * Open Source,
     * Python based 
     * Works with GCC Compiler 
+    * Minimalistic
     * C-Program runner
 
 
