@@ -1,4 +1,4 @@
-#Python application for Aclara File compression software bin to xz
+
 
 #UI/UX Librarys
 import wx
@@ -15,17 +15,15 @@ class GUI ( wx.Frame ):
     
     def __init__( self, parent ):
     
-        #Init the frame with fixed window
+        
         wx.Frame.__init__(self, 
                           None, 
                           -1, 
                           u"CD-E Your C Language IDE", 
                           size=(500, 500),#Window size
-                          #style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
                           style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         
         
-        #self.SetSizeHints( wx.Size( 850, 600 ), wx.Size( 850, 600 ) )
         self.SetForegroundColour( wx.SystemSettings.GetColour( wx.SYS_COLOUR_WINDOW ) )
 
         self.SetBackgroundColour( wx.Colour( 182, 180, 235 ) )
