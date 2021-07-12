@@ -4,8 +4,8 @@
 
     * Very small size, 
     * Open Source,
-    * Python based :snake:
-    * Works with GCC Compiler :muscle: 
+    * Python based 
+    * Works with GCC Compiler 
     * C-Program runner
 
 
