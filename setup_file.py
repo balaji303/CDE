@@ -17,7 +17,7 @@ class GUI ( wx.Frame ):
         wx.Frame.__init__(self, 
                           None, 
                           -1, 
-                          u"CD-E Your C Language IDE", 
+                          u"CD-E Your C Language IDE v2", 
                           size=(500, 500),#Window size
                           style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         
