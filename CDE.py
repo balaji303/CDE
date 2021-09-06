@@ -61,18 +61,18 @@ class GUI ( wx.Frame ):
         os.chdir(pyfiledir)
         language=self.languagebox.GetStringSelection()
         if language == 'C':
-            with open( "setup.c","w" ) as cfile:
+            with open( "program.c","w" ) as cfile:
                 cfile.write(code)
             cfile.close()
-            os.system("gcc setup.c -o setup")
+            os.system("gcc program.c -o program")
         elif language == 'C++':
-            with open( "setup.cpp","w" ) as cppfile:
+            with open( "program.cpp","w" ) as cppfile:
                 cppfile.write(code)
             cppfile.close()
-            os.system("g++ setup.cpp -o setup")
+            os.system("g++ program.cpp -o program")
         else:
             print("Error")
-        os.system(".\setup")
+        os.system(".\program")
         return
         
 
