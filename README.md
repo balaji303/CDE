@@ -1,5 +1,7 @@
 # CD-E Your C Language IDE
-
+![GitHub release (latest by date)](https://img.shields.io/github/downloads/balaji303/CDE/version2/total?style=flat-square)
+ 
+ 
  CD-E is a
 
     * Very small size, 
