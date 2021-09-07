@@ -35,4 +35,5 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
+        cd CDE/
         pytest -vs CDE.py
