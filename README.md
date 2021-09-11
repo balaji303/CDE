@@ -1,7 +1,5 @@
 # CD-E Your C Language IDE
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/balaji303/CDE/version2/total?style=flat-square)
-![Build Status](https://github.com/balaji303/CDE/workflows/Pythonapp/badge.svg) 
- 
+
  CD-E is a
 
     * Very small size, 
