@@ -53,7 +53,7 @@ class GUI (wx.Frame):
             os.system("g++ program.cpp -o program")
         else:
             print("Error")
-        os.system(".\program")
+        os.system(r".\program")
         return
 if __name__ == '__main__':
     app = wx.App(False) 
