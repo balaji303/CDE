@@ -6,11 +6,11 @@ import wx.xrc
 import wx.aui
 import wx.richtext
 import os
+
+
 class GUI (wx.Frame):
-
-
     def __init__(self, parent):
-        wx.Frame.__init__(self,None,-1,u"CD-E Your Language IDE v2",size=(500, 500),style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
+        wx.Frame.__init__(self, None, -1, u"CD-E Your Language IDE v2", size=(500, 500), style = wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         self.SetForegroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW))
         self.SetBackgroundColour(wx.Colour(182, 180, 235))
         langlist = ['C' , 'C++'] 
