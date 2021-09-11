@@ -10,8 +10,9 @@ import os
 
 class GUI (wx.Frame):
     def __init__(self, parent):
-        # pylint: disable = line-too-long, too-many-lines, no-name-in-module, import-error, multiple-imports, pointless-string-statement, wrong-import-order
-        wx.Frame.__init__(self, None, -1, u"CD-E Your Language IDE v2", size=(500, 500), style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
+        wx.Frame.__init__(self, None, -1, u"CD-E Your Language IDE v2", \
+            size=(500, 500), style=wx.DEFAULT_FRAME_STYLE & \
+            ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         self.SetForegroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW))
         self.SetBackgroundColour(wx.Colour(182, 180, 235))
         langlist = ['C', 'C++'] 
