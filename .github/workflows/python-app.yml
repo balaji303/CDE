@@ -28,4 +28,5 @@ jobs:
       run: |
         pip install pytest
         cd CDE/
+        sudo apt-get install python-wxtools
         pytest -vs CDE.py
