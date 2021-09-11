@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(void)
 {
-printf("\nwel");
+printf("Wel");
 return 0;
 }

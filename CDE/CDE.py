@@ -1,9 +1,9 @@
 # CD-E
 
 
-import wx.xrc
-import wx.aui
-import wx.richtext
+from wx import xrc
+from wx import aui
+from wx import richtext
 import os
 
 
