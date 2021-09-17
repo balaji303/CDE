@@ -1,4 +1,4 @@
-# CD-E Your C Language IDE
+# CD-E Your IDE
 
  CD-E is a
 
