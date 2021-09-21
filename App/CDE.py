@@ -5,6 +5,7 @@ import wx.xrc
 import wx.aui
 import wx.richtext
 import os
+import subprocess
 
 
 class GUI (wx.Frame):
@@ -12,7 +13,7 @@ class GUI (wx.Frame):
         wx.Frame.__init__(self, 
                           None,
                           -1, 
-                          u"CD-E Your Language IDE v3", 
+                          u"CD-E Your Language IDE v3.1", 
                           size=(500, 500),
                           style=wx.DEFAULT_FRAME_STYLE & ~(wx.RESIZE_BORDER | wx.MAXIMIZE_BOX))
         self.SetForegroundColour(wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW))
@@ -54,7 +55,7 @@ class GUI (wx.Frame):
             with open( "program.cpp","w" ) as cppfile:
                 cppfile.write(code)
             cppfile.close()
-            os.system("g++ program.cpp -o program")
+            subprocess.call('g++ program.cpp -o program', shell=False)
             os.system(".\program")
         elif language == 'Python':
             with open( "program.py","w" ) as cppfile:
