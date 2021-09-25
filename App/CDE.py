@@ -61,7 +61,7 @@ class GUI (wx.Frame):
             with open( "program.py","w" ) as cppfile:
                 cppfile.write(code)
             cppfile.close()
-            os.system("python program.py")
+            subprocess.call('python program.py', shell=False)
         else:
             print("Error")
         return
