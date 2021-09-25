@@ -49,8 +49,8 @@ class GUI (wx.Frame):
             with open( "program.c","w" ) as cfile:
                 cfile.write(code)
             cfile.close()
-            os.system("gcc program.c -o program")
-            os.system(".\program")
+            subprocess.call('gcc program.c -o program', shell=False)
+            subprocess.call('.\program', shell=False)
         elif language == 'C++':
             with open( "program.cpp","w" ) as cppfile:
                 cppfile.write(code)
@@ -64,7 +64,7 @@ class GUI (wx.Frame):
             subprocess.call('python program.py', shell=False)
         else:
             print("Error")
-        return
+        
 if __name__ == '__main__':
     app = wx.App(False) 
     app_gui = GUI(None) 

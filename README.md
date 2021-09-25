@@ -1,5 +1,7 @@
 # CD-E Your IDE
 
+[![CodeFactor](https://www.codefactor.io/repository/github/balaji303/cde/badge/main)](https://www.codefactor.io/repository/github/balaji303/cde/overview/main)
+
  CD-E is a
 
     * Very small size, 
