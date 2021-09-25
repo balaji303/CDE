@@ -64,7 +64,7 @@ class GUI (wx.Frame):
             subprocess.call('python program.py', shell=False)
         else:
             print("Error")
-        return
+        
 if __name__ == '__main__':
     app = wx.App(False) 
     app_gui = GUI(None) 
