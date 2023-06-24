@@ -11,6 +11,7 @@
     * Minimalistic
     * C-Program runner
 
+<img src="https://raw.githubusercontent.com/balaji303/CDE/main/.github/CDE_image.png" alt="CDE" class="inline"/>
 
 There are a few dependencies for this Python App make sure you install them before running the Python App
    1. **Install GCC compiler** and
